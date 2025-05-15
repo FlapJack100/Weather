@@ -1,3 +1,5 @@
+import './style.css'
+
 const container = document.createElement('div');
 container.className = "container"
 const title = document.createElement('h1');

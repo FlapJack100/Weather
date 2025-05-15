@@ -1,0 +1,30 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlapJack100/Weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlapJack100/Weather/issues"
+  },
+  "homepage": "https://github.com/FlapJack100/Weather#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
