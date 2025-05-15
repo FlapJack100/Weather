@@ -24,6 +24,8 @@ button.addEventListener('click',() => {
         result.innerHTML = '<p style="color:red;">Введите название города</p>';
         return;
     }
+    result.innerHTML = '<div class="loader"></div>'
+
     const geoUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=ru&format=json`;
 
   fetch(geoUrl)
