@@ -1,9 +1,13 @@
-import './style.css'
+import '../styles/style.css'
+const root = document.getElementById('root')
+
 
 const container = document.createElement('div');
 container.className = "container"
+root.appendChild(container)
 const title = document.createElement('h1');
 title.textContent = 'Погода'
+
 
 const input = document.createElement('input');
 input.type = 'text'
